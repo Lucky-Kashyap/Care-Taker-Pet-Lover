@@ -1,0 +1,172 @@
+
+/* Media Query */
+
+@media only screen and (max-width:1200px){
+    .inner-flex .items-left a{
+        padding: 0 .5rem;
+        text-align: center;
+    }
+    .inner-flex .items-right a{
+        padding: 0 1rem;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:990px){
+    .inner-flex .items-left a{
+        text-align: center;
+        padding: 0 .5rem;
+    }
+    .inner-flex .items-right a{
+        text-align: center;
+        padding: 0 1rem;
+    }
+}
+@media only screen and (max-width:800px){
+   
+    .inner-flex .items-left{
+        width: 100%;
+        text-align: center;
+    }
+    .inner-flex .items-right{
+        width: 100%;
+        padding-top: 4rem;
+        text-align: center;
+    }
+    .vacation-box{
+        width: 100%;
+    }
+
+   
+}
+@media only screen and (max-width:700px){
+    
+    .inner-flex .items-left{
+        width: 100%;
+        text-align: center;
+    }
+    .inner-flex .items-right{
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-list .flex-box .left{
+        display: none;
+    }
+
+    .carousel img{
+        /* width: 100%; */
+        height: 70vh;
+    }
+    .carousel .slider{
+        top: 0px;
+    }
+    .slider h3{
+        font-size: 1rem;
+    }
+    .slider h1{
+        font-size: 1.5rem;
+    }
+    .slider .learn{
+        font-size: 1rem;
+        font-weight: 500;
+        color: #fff;
+    }
+    .slider .book{
+        font-size: 1rem;
+    }
+    .slider h5{
+        font-size: .9rem;
+    }
+    .carousel .image-flex h3{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:650px){
+    
+    
+}
+@media only screen and (max-width:600px){
+    nav .navbar-brand{
+        display: block;
+    }
+    nav .navbar-header .text{
+        
+        color: #ED6436;
+    font-size: 1.8rem;
+    font-weight: 300;
+    }
+    nav .navbar-header a{
+        display: block;
+        color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    }
+
+    .services .text{
+        font-size: 2rem;
+    }
+    .services h1{
+        font-size: 2rem;
+    }
+    .pet-feeding{
+        padding: 2rem 0;
+    }
+    .pet-feeding h4{
+        font-size: 1.5rem;
+    }
+    .pet-feeding h1{
+        font-size: 2rem;
+    }
+    .vacation-box{
+        width: 100%;
+    }
+    .pet-feeding .four-box .cover{
+        width: 90%;
+    }
+    .pet-feeding .four-box .cover .box1 h5{
+        text-align: left;
+        padding: 0;
+    }
+
+
+    .about h1{
+        font-size: 2rem;
+    }
+    .about h4{
+        font-size: 1.2rem;
+    }
+    .about .board{
+        font-size: 2rem;
+    }
+    .about .daycare{
+        font-size: 2rem;
+    }
+    .about h5{
+        font-size: 1rem;
+    }
+    .about p{
+        font-size: 1rem;
+    }
+
+    .services .box1{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+       
+    }
+    .care-pets img{
+        width: 100%;
+    }
+
+    .testimonial-box .item .image-box img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .testimonial-box .item .image-box img{
+        width: 100%;
+        padding-left: 1rem;
+    }
+}
